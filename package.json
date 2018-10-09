@@ -1,0 +1,24 @@
+{
+  "name": "voc-site",
+  "version": "1.0.0",
+  "description": "Value Odd Club Website.",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel -p 3000 ./views/home.html",
+    "build": "parcel build index.html"
+  },
+  "repository": "https://joaquimtd@bitbucket.org/joaquimtd/voc-site.git",
+  "author": "S7R1D3R <joaquimtd.info@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.10.2"
+  },
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  }
+}
